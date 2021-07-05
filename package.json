@@ -1,8 +1,11 @@
 {
-  "name": "ejs-preprocessor",
+  "name": "ejsp",
   "version": "1.0.1-alpha",
   "description": "use ejs like preprocessor",
   "main": "index.js",
+  "bin": {
+    "ejsp": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/artegoser/ejs-preprocessor/issues"
   },
-  "homepage": "https://github.com/artegoser/ejs-preprocessor#readme"
+  "homepage": "https://github.com/artegoser/ejs-preprocessor#readme",
+  "dependencies": {
+    "ejs": "^3.1.6"
+  }
 }
