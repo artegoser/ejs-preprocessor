@@ -1,0 +1,24 @@
+{
+  "name": "ejs-preprocessor",
+  "version": "1.0.1-alpha",
+  "description": "use ejs like preprocessor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artegoser/ejs-preprocessor.git"
+  },
+  "keywords": [
+    "ejs",
+    "preprocessor",
+    "ejs-preprocessor"
+  ],
+  "author": "artegoser",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/artegoser/ejs-preprocessor/issues"
+  },
+  "homepage": "https://github.com/artegoser/ejs-preprocessor#readme"
+}
