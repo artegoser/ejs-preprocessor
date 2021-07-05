@@ -9,9 +9,13 @@ create the ejsp.json file(this is config for ejs preprocessor)
 example
 ```json 
 {
-    "dir":"testinput/", //dir with ejs files
-    "outdir":"test/", //outdir with rendered ejs files
-    "vars":{"test":"hello"} //vars to ejs
+    "dir":"testinput/",
+    "outdir":"test/",
+    "vars":{"test":"hello"}
 }
 ```
+dir - directory with ejs files  
+outdir - directory with rendered ejs files  
+vars - ejs vars  
+
 then run the command ```ejsp``` in the cmd

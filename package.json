@@ -1,6 +1,6 @@
 {
   "name": "ejsp",
-  "version": "1.0.2-alpha",
+  "version": "1.0.2",
   "description": "use ejs like preprocessor",
   "main": "index.js",
   "bin": {
