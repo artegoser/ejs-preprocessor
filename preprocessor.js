@@ -30,7 +30,12 @@ function preprocessor(file, outdir, vars, dir){
             });
         });
     } else{
-        fs.copyFile(file, path.join(outdir,path.basename(file)), (err) => {
+        let realdir = dir.split("/");
+        realdir.shift();
+        realdir = realdir.join("/");
+        let outfilename = path.join(outdir, realdir, path.basename(file));
+        fs.mkdirSync(path.dirname(outfilename), { recursive: true })
+        fs.copyFile(file, outfilename, (err) => {
             if (err) throw err;
             console.log(`file ${file} was copied`);
         });
