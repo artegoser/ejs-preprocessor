@@ -75,3 +75,7 @@ typings/
 # FuseBox cache
 .fusebox/
 testinput/test.ejs
+
+
+/test
+/testinput
