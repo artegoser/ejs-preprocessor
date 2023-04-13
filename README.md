@@ -11,11 +11,11 @@ use ejs like preprocessor
 create the ejsp.json file(this is config for ejs preprocessor)
 example
 
-```json
+```json5
 {
-  "dir": ["testinput", "!testinput/components"], //! for exclude dir
-  "outdir": "test/",
-  "vars": { "test": "hello" }
+  dir: ["testinput", "!testinput/components"], //! for exclude dir
+  outdir: "test/",
+  vars: { test: "hello" },
 }
 ```
 
