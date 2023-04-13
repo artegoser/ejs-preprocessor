@@ -25,8 +25,8 @@ vars - ejs variables
 
 e.g.
 
-`testinput/index.ejs will` be rendered to `test/index.html`
-`testinput/components/menu.ejs` will not be rendered
+`testinput/index.ejs will` be rendered to `test/index.html`  
+`testinput/components/menu.ejs` will not be rendered  
 `testinput/index.css` will be copied to `test/index.css`
 
 then run the command `ejsp` in the cmd
