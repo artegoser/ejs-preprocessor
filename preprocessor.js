@@ -4,7 +4,7 @@ import ejs from "ejs";
 import { globby } from "globby";
 import async from "async";
 
-async function scaner(dir, outdir, vars) {
+async function bulkProc({ dir, outdir, vars }) {
   const files = await globby(dir);
   await async.forEach(files, (item, cb) => {
     preprocessor(item, outdir, vars);
@@ -44,6 +44,4 @@ function getNewFileName(dir, outdir, file, rename = true) {
   );
 }
 
-export default async ({ dir, outdir, vars }) => {
-  await scaner(dir, outdir, vars);
-};
+export default bulkProc;
